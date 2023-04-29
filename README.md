@@ -3,6 +3,8 @@
 <h2>Description</h2>
 This project consists of a C script that follows the Downhill Simplex Method - an algorithm for finding the global minimum/maximum for a function in multidimensional space. This script will take in a function, as well as the coordinates of the vertices of a simplex. It will follow the downhill simplex algorithm and converge towards a standing point; outputting the coordinates of the final simplex, the evaluation of the function at those coordinates, and the number of steps taken. 
 
+For further theoretical information, see [this link](https://en.wikipedia.org/wiki/Nelder%E2%80%93Mead_method)
+
 <h2>Languages and Utilities Used</h2>
 
 - <b>C</b> 
