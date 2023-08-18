@@ -34,7 +34,7 @@ void write_file(char* filename, double x0, double x1) {
 void cent(double matrix[][2], double* result) {
 	result[0] = (matrix[0][0] + matrix[1][0]) / 2;
 	result[1] = (matrix[0][1] + matrix[1][1]) / 2;
-} // generate centroid of points Pi where i != h. Need to use pointer to result array here as functions cant directly return arrays.
+} // generate centroid of points Pi where i != h.
 
 void ref(double* arr, double matrix[][2], double* result) {
 	result[0] = (arr[0] * 2) - matrix[2][0];
@@ -65,8 +65,6 @@ void rep(double* arr, double matrix[][2]) {
 	matrix[2][0] = arr[0];
 	matrix[2][1] = arr[1];
 } // replace highest value point.
-
-
 
 void sort(double array[], int size, double matrix[][2]) {
 
